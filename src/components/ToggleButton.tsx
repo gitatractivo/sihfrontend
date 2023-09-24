@@ -21,13 +21,13 @@ const ToggleButton = () => {
   
  
   return (
-    <Button
+    <button
       onClick={() => {
         setTheme(checked ? "light" : "dark");
       }}
     >
       {checked ? <Brightness7Icon /> : <Brightness4Icon />}
-    </Button>
+    </button>
   );
 };
 
