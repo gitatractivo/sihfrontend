@@ -10,7 +10,7 @@ const NavBar = (props: Props) => {
       <div className="first flex gap-3">
         <div className="flex gap-3 ">
           <Avatar className="w-[25px] h-[25px]" />
-          <p className="font-bold text-lg">Hello</p>
+          <p className="font-bold text-lg">VIKARA</p>
         </div>
       </div>
       <div className="second flex gap-2">
