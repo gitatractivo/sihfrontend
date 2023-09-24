@@ -17,11 +17,15 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  
+}
+
+
+.backnavdrop{
+    
+    //-webkit-backdrop-filter: saturate(180%) blur(5px);
+    backdrop-filter:  blur(15px);
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: translateZ(0);
 }
